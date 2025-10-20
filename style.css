@@ -146,6 +146,11 @@ nav {
     align-items: center;
 }
 
+.about-me__img {
+    width:100%;
+    margin-top: 80px;
+}
+
 /*TECH - STACK*/
 
 .language__img{
