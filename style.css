@@ -27,10 +27,24 @@ li {
     flex: 1;
 }
 
+.container{
+    padding: 50px 0; 
+}
 .row{
     width:100%;
     max-width: 800px;
     margin: 0 auto;
+}
+.text--purple{
+    color: #6030b1;
+}
+section:nth-child(even) {
+    background-color: #f8f8f8;
+    
+}
+
+.section__title{
+    margin-bottom: 20px;
 }
 /* NAVIGATION */
 nav {
@@ -77,12 +91,13 @@ nav {
 }
 
 /* ABOUT ME */
-.row {
+
+#about-me .row {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.about-me__info{
+.about-me__info  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,3 +140,36 @@ nav {
     padding: 0 16px;
 }
     
+.about-me__img--container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+/*TECH - STACK*/
+
+.language__img{
+    width: 100px;
+    max-width: 100px;
+    height: auto;
+    border-radius: 15px;
+   
+}
+
+.language{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.language__img--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.languages__list{
+    display: flex;
+    width:100px;   
+}
